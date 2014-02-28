@@ -1,11 +1,8 @@
-.toolbar{
-	display: inline;
-	width: 100pt;
-}
+
 
 ul
 {
-float:left;
+float:;
 width:100%;
 padding:0;
 margin:0;
@@ -15,43 +12,27 @@ list-style-type:none;
 .option
 {
 font-size:12px;
-float:left;
 width:100px;
 height: 20px;
 text-align:center;
-text-decoration:none;
-color:white;
-background-color:purple;
+color:black;
 padding:0.2em 0.6em;
-border-right:1px solid white;
 
 }
 
+.menu_bar
+{
+	margin-top:40px;
+}
 a:hover {background-color:#ff3300;}
 
 li {display:inline;
 }
 
-.TitleToolbar{
-	display: inline;	
-}
-.logo{
-float:left;
-display:inline;
-}
-.headerToolbar{
-	display: inline;
-	position: absolute;
-	left: 512px;
-	top: 61px;
-}
-#firstop{
-	position: absolute;
-	left: -100px;
-	top: 14px;
-	}
 
-.headerToolbar_wrap{
-	margin-left: 500px;
-	position: absolute;	
+#logo{
+width:120px;
+margin-left:30px;
+
 }
+
