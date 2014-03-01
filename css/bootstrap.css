@@ -222,12 +222,12 @@ textarea {
 }
 
 body {
-  margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  color: #333333;
-  background-color: #ffffff;
+	margin: 0;
+	font-family: pt-sans;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+	background-color: #ffffff;
 }
 
 a {
@@ -389,8 +389,9 @@ a:focus {
 }
 
 .row-fluid {
-  width: 100%;
+	width: 100%;
   *zoom: 1;
+
 }
 
 .row-fluid:before,
@@ -427,6 +428,7 @@ a:focus {
 .row-fluid .span12 {
   width: 100%;
   *width: 99.94680851063829%;
+  margin-left:40px;
 }
 
 .row-fluid .span11 {
