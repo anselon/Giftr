@@ -37,7 +37,7 @@ li {display:inline;
 
 #logo{
 width:25%;
-margin-left:50px;
+margin-left:5%;
 padding-bottom:0px;
 margin-top:10px;
 
@@ -48,3 +48,7 @@ width:95%;
 }
 
 body{background-color:F2EEE7;}
+
+.spacer{
+	height:1px;clear:both;margin:20px 5px 20px 5px;
+}
