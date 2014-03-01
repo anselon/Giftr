@@ -1,45 +1,57 @@
-form {
+.form {
 	margin-left: auto;
 	margin-right: auto;
 	position: absolute;
-	top: 262px;
-	left: 29px;
+	top: 30px;
+	left: 40px;
 	font-family: sans-serif;
 	width: 439px;
-	height: 257px;
+	height: 297px;
+}
+#form1{
+	position: absolute;
+	top: 165px;
+	left: 27px;
+	width: 450px;
+}
+#questions{
 }
 
-gname{
+.gname{
 	float: left;
 }
 
-input{float:right;}
-label{
+.input{float:right;}
+
+.label{
 	float:left;
 	padding-right:10px;
 	}
 	
-space{
+.space{
 	margin-top:30px;
 	margin-bottom: 30px;
 	height: 40px;
 }
 
-continueButton{
+#continueButton{
 	font-size: 20px;
 	padding-top:10px;
 	padding-bottom:10px;
+	color:green;
 }
 
-nextButton{
+#nextButton{
 	font-size: 20px;
 	padding-top:10px;
 	padding-bottom:10px;
+	color: green;
 
 }
 
-skipButton{
+#skipButton{
 	font-size: 20px;
 	padding-top:10px;
 	padding-bottom:10px;
+	color: gray;
 }
