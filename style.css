@@ -52,3 +52,28 @@ body{background-color:F2EEE7;}
 .spacer{
 	height:1px;clear:both;margin:20px 5px 20px 5px;
 }
+.BigButton, .SmallButton{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	height:50px;
+	margin-top:15px;
+	margin-bottom:15px;
+	font-size:18px;
+	font-family:pt-sans;
+	color:#565157;
+	border-radius: 10px;
+	
+}
+
+.BigButton{
+	width:250px;
+	margin-top:50px;
+
+}
+
+.SmallButton{
+	width: 200px;
+
+}
