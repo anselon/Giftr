@@ -99,10 +99,7 @@ sub {
 }
 
 img {
-  width: auto\9;
-  height: auto;
-  max-width: 100%;
-  vertical-align: middle;
+
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
@@ -428,7 +425,7 @@ a:focus {
 .row-fluid .span12 {
   width: 100%;
   *width: 99.94680851063829%;
-  margin-left:40px;
+
 }
 
 .row-fluid .span11 {
