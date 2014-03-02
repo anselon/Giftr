@@ -1,18 +1,22 @@
-<?php 
-/** Homepage Template **/
+<?php /*
+ Theme Name:   Twenty Thirteen Child
+ Theme URI:    http://example.com/twenty-thirteen-child/
+ Description:  EECS 330 Giftr Theme
+ Author:       Anna, Yao, Kam, and Morgan
+ Author URI:   http://example.com
+ Template:     twentythirteen
+ Version:      1.0.0
+ Text Domain:  twenty-thirteen-child
+
+*/
+
+
+    include('resultspage.php');
+
+
+
 ?>
 
-<html>
-<head>
-</head>
-<body>
-	<div class ="toolbar" id="gift">
-	<a href ="index.php">
-	<img src="image/Gift.png" alt="giftrlogo" height="42" width="42"/>
-	</a>
-	</div>
-
-</body>
-
-
-</html>
+<style type="text/css">
+@import url('../wp-content/themes/twentythirteen-child/resultpage_style.css')
+</style>

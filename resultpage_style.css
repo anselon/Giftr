@@ -6,6 +6,7 @@
 
 #buy,#make,#experience{
 	margin-top: 20px;
+    padding-bottom: 100px;
 	width: 400px;
 	display: inline-block;
 	text-align: center;
@@ -23,8 +24,17 @@
 	border-right:0px;
 }
 
-#buythumbs img{display: inline-block;}
-#buygallerycontainer{
+#thumbs img{
+    display: inline-block;
+    width: 75px;
+    height:75px;
+    float: left;
+
+ 
+}
+
+#gallerycontainer{
+    margin-top: 100px;
     width: inherit;
     margin-left: auto;
     margin-right: auto;
@@ -33,36 +43,37 @@
 
 }
  
-#buygallery, #buythumbs{
+#gallery{
     margin-right: auto;
     margin-left: auto;
     position: relative;
 }
  
-#buygallery{
-    width: inherit;
+#gallery{
+    width: 300px;
     height: 300px;
     position: relative;
+    margin-right: auto;
+    margin-left: auto;
+
     
 }
  
-#buygallery img{
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-
+#gallery img{
+    position: absolute;
 }
  
-#buythumbs{
+#thumbs{
     display: inline-block;
-    width: inherit;
-    height: 50px;
-    overflow: hidden;
+    width: 300px;
+    overflow: scroll;
+    height: 75px;
     position: relative;
+    overflow: hidden;
 }
-#buythumbs>img:hover{
+#thumbs>img:hover{
 
-  opacity: .2;
+  opacity: .8;
   background-color: #B29B9C;
 
 }
