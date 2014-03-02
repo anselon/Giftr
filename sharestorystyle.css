@@ -1,9 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
-#heading
-{font:pt-sans;
-size:40; }
+.heading
+{font-family: pt-sans;
+	font-style: normal;
+	font-weight: 400;
+	color: #565157;
+size:40;
+margin-left:300px }
 
 .image1
 {display: block;
