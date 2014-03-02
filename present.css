@@ -34,18 +34,18 @@
 	height: 40px;
 }
 
-#continueButton{
+.continueButton{
 	font-size: 20px;
 	padding-top:10px;
 	padding-bottom:10px;
-	color:green;
+	boundary-color:#10CFC8;
 }
 
 #nextButton{
 	font-size: 20px;
 	padding-top:10px;
 	padding-bottom:10px;
-	color: green;
+	color: #10CFC8;
 
 }
 
@@ -53,5 +53,9 @@
 	font-size: 20px;
 	padding-top:10px;
 	padding-bottom:10px;
-	color: gray;
+	color: #565157;
+}
+
+.hint{
+	color: #565157;
 }
