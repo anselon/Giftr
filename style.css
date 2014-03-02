@@ -9,13 +9,13 @@ list-style-type:none;
 
 .option
 {
-	font-size: 14px;
+	font-size: 16px;
 	color: #565157;
 	width: 100px;
 	height: 20px;
 	text-align: center;
 	padding: 0.2em 0.6em;
-	font-family: pt-sans;
+	font-family: 'PT Sans', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 }
@@ -23,6 +23,7 @@ list-style-type:none;
 .menu_bar
 {
 	margin-top:50px;
+
 }
 a:hover {
 	background-color: F56141;
@@ -32,12 +33,13 @@ a:hover {
 
 li {display:inline;
 	font-family: 'PT Sans', sans-serif;
+
 }
 
 
 #logo{
-width:25%;
-margin-left:5%;
+width:90%;
+margin-left:15%;
 padding-bottom:0px;
 margin-top:10px;
 
@@ -52,3 +54,39 @@ body{background-color:F2EEE7;}
 .spacer{
 	height:1px;clear:both;margin:20px 5px 20px 5px;
 }
+.BigButton, .SmallButton{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	display:block;
+	font-family: 'PT Sans', sans-serif;
+	margin-top:20px;
+	margin-bottom:20px;
+	color:#F2EEE7;
+	border-radius: 10px;
+	border:0px solid #727272;
+
+}
+
+.BigButton{
+	width:250px;
+	margin-top:100px;
+	background-color:#F53C4A;
+	font-size:24px;
+	height:75px;
+
+}
+
+.SmallButton{
+	width: 200px;
+	background-color:#F53C4A;
+	font-size:22px;
+	height:50px;
+}
+
+.tagline{
+	font-size:25px;
+	font-family: 'Shadows Into Light', cursive;
+	padding-top:45px;
+}
+
