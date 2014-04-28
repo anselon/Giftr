@@ -3,36 +3,42 @@ $(document).ready(function()
     
 //BUY
 
-
+    //initialize variable for gallery images
     var buyimages = $("#buy #gallery img");
+    //initialize variable for gallery thumb images
     var buythumbs = $("#buy #thumbs img");
+    //initialize variable for price blurbs
     var buyblurbs = $("#buy #blurbs div");
 
     buyimages.fadeOut();
     buyblurbs.fadeOut();
 
+    //label divs
     classify(buyimages, buythumbs, buyblurbs);
-    //classify(buyblurbs, buythumbs, buyblurbs);
+    
     
     $(buyimages[0]).fadeIn();
     $(buyblurbs[0]).fadeIn();
 
-
+    // onclick change gallery image to new image corresponding to chosen thumbnail
     buythumbs.click(function(){ 
 
     var imageclass = $(this).attr("class");
  
    //add in exception if current thumbnail is clicked
 
-    buyimages.fadeOut(500);
-    buyblurbs.fadeOut(500);
+    //fadeout old blurb and image
+    $("#buy #gallery>img").fadeOut(500);
+    $("#buy #blurbs>div").fadeOut(500);
 
-    
+    //fade in new blurb and image
     $("#buy #gallery>img." + imageclass).fadeIn(500);
     $("#buy #blurbs>div." + imageclass).fadeIn(500);
     });
+   });
 
-
+$(document).ready(function() 
+{ 
 
 //MAKE
 
@@ -92,6 +98,7 @@ $(document).ready(function()
 
 });
 
+//set class for all images, thumbs and blurbs
 function classify(images, thumbs, blurbs){
     for (i=0; i<thumbs.length; i++)
     {
