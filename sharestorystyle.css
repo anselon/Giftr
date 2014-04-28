@@ -10,15 +10,28 @@ size:40;
 margin-left:300px }
 
 .image1
-{display: block;
-    margin-left: auto;
-    margin-right: auto; ;
-        }
-
-
-.image2
-{display: block;
+{position: absolute;
+	display: block;
     margin-left: auto;
     margin-right: auto;
+    left:220px;
         }
- 
+
+
+#image2
+{
+	position: inherit;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ .container{
+ 	display: block;
+ 	
+ 	height: auto;
+ 	position: relative;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }

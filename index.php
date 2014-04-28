@@ -11,7 +11,7 @@
 */
 
 
-    include('resultspage.php');
+    include('index.html');
 
 
 

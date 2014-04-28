@@ -6,6 +6,9 @@ padding:0;
 margin:0;
 list-style-type:none;
 }
+body{
+	font-family: 'PT Sans', sans-serif;
+}
 
 .option
 {
@@ -25,10 +28,12 @@ list-style-type:none;
 	margin-top:50px;
 
 }
-a:hover {
-	background-color: F56141;
+a:hover{text-decoration: none;}
+a.option:hover {
+	background-color: #10CFC8;
 	text-decoration: none;
-	Color:white;
+	color:white;
+
 }
 
 li {display:inline;
@@ -44,12 +49,16 @@ padding-bottom:0px;
 margin-top:10px;
 
 }
-
+#success{
+	overflow-y: scroll;
+	height:450px;
+	width: 311px;
+}
 #banner{
 width:95%;
 }
 
-body{background-color:F2EEE7;}
+body{background-color:#F2EEE7;}
 
 .spacer{
 	height:1px;clear:both;margin:20px 5px 20px 5px;
@@ -66,27 +75,70 @@ body{background-color:F2EEE7;}
 	border-radius: 10px;
 	border:0px solid #727272;
 
+
 }
 
 .BigButton{
-	width:250px;
+	width:350px;
 	margin-top:100px;
 	background-color:#F53C4A;
 	font-size:24px;
-	height:75px;
+	height:100px;
+
+
+}
+.BigButton:hover{
+	width:375px;
+	height:125px;
+	border:5px;
+	margin-top: 95px;
+	border-color:#10CFC8;
+	border-style: solid;
+	text-decoration: none;
+
 
 }
 
 .SmallButton{
-	width: 200px;
+	width: 250px;
 	background-color:#F53C4A;
-	font-size:22px;
-	height:50px;
-}
 
+	font-size:22px;
+	height:75px;
+}
+.SmallButton:hover{
+
+	border:5px;
+	border-color:#10CFC8;
+	border-style: solid;
+	text-decoration: none;
+
+
+}
 .tagline{
 	font-size:25px;
 	font-family: 'Shadows Into Light', cursive;
 	padding-top:45px;
 }
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
 
+
+h1{
+	font-family: 'PT Sans', sans-serif;
+	position: absolute;
+	left:0px;
+	text-align: left;
+	left:75px;
+	margin-top: 10px;
+}
+img.image1{
+float:left;
+position: relative;
+margin-top: 70px;
+}
+#page{
+
+	width:900px;
+	text-align: left;
+}
